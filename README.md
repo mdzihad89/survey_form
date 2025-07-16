@@ -35,13 +35,12 @@ A dynamic survey form Android app built with Jetpack Compose, following Clean Ar
 - **FileProvider** (for camera image URIs)
 
 ## Image Handling
-- For Camera type , the app captures a photo and saves it to the app's cache directory.
+- For Camera type, the app captures a photo and saves it to the app's cache directory.
 - **Only the file path (URI as string) is stored in the database**, not the image data itself.
-- **Coil** is used to efficiently load and display images from file paths in the Compose UI.
 
 ## Setup & Running
 1. **Clone the repository**
-2. Open in Android Studio (Arctic Fox or newer recommended)
+2. Open in Android Studio (Arctic Fox or newer)
 3. Sync Gradle and build the project
 4. Run on an emulator or real device
 
